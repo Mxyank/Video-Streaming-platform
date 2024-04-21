@@ -4,7 +4,7 @@ $('#scrhbtn').on('click', function () {
         $("#bodyContent").html('');
         $("#bodyContent").addClass("ml-3");
         $.ajax({
-            url: 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBFvN6iMnZhT8uUPBQIQMA3R50g19lbUsk&part=snippet&q=' + srchqry + '&maxResults=50',
+            url: 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBF321OpnTkIG2XviA_1PN5SZ_5PzHitTY&part=snippet&q=' + srchqry + '&maxResults=50',
             type: 'GET',
             dataType: 'JSON',
             data: "json",

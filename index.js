@@ -9,7 +9,7 @@ var hbs = require('hbs');
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded());   
 var mongoClient = require('mongodb').MongoClient;
-var url ='mongodb+srv://12345:mayank123@cluster0.u4gqudo.mongodb.net/';
+var url ='mongodb+srv://12345:Qwerty@12345@cluster0.u4gqudo.mongodb.net/';
 
 mongoClient.connect(url,{ useNewUrlParser: true,useUnifiedTopology: true },function (err, client) {
     if (err)
